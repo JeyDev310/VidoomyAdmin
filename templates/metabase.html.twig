@@ -1,0 +1,14 @@
+{% trans_default_domain easyadmin_config('translation_domain') %}
+{% extends easyadmin_config('design.templates.layout') %}
+
+{% block body_class 'page-blank' %}
+
+{% block content %}
+    <iframe
+            src="https://metabase.vidoomy.com/public/dashboard/a2fab2e0-0b65-4246-9d06-e883ff3270ca"
+            frameborder="0"
+            width="1100"
+            height="1200"
+            allowtransparency
+    ></iframe>
+{% endblock %}
