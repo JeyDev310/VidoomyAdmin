@@ -1,0 +1,148 @@
+<?php //%255BApp%255CEntity%255CDeals%2524CLASSMETADATA%255D%255B1%255D
+
+return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = \Symfony\Component\VarExporter\Internal\Registry::unserialize([
+        clone (\Symfony\Component\VarExporter\Internal\Registry::$prototypes['Doctrine\\ORM\\Mapping\\ClassMetadata'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Doctrine\\ORM\\Mapping\\ClassMetadata')),
+    ], [
+        1 => 'C:33:"Doctrine\\ORM\\Id\\SequenceGenerator":72:{a:2:{s:14:"allocationSize";i:1;s:12:"sequenceName";s:12:"deals_id_seq";}}',
+    ]),
+    null,
+    [
+        'stdClass' => [
+            'name' => [
+                'App\\Entity\\Deals',
+            ],
+            'namespace' => [
+                'App\\Entity',
+            ],
+            'rootEntityName' => [
+                'App\\Entity\\Deals',
+            ],
+            'customRepositoryClassName' => [
+                'App\\Repository\\DealsRepository',
+            ],
+            'identifier' => [
+                [
+                    'id',
+                ],
+            ],
+            'generatorType' => [
+                2,
+            ],
+            'fieldMappings' => [
+                [
+                    'id' => [
+                        'fieldName' => 'id',
+                        'type' => 'integer',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'id' => true,
+                        'columnName' => 'id',
+                    ],
+                    'publisher' => [
+                        'fieldName' => 'publisher',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'publisher',
+                    ],
+                    'name' => [
+                        'fieldName' => 'name',
+                        'type' => 'string',
+                        'scale' => 0,
+                        'length' => 255,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'name',
+                    ],
+                    'whitelist_seats' => [
+                        'fieldName' => 'whitelist_seats',
+                        'type' => 'array',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'whitelist_seats',
+                    ],
+                    'bidfloor' => [
+                        'fieldName' => 'bidfloor',
+                        'type' => 'float',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'bidfloor',
+                    ],
+                    'atribution_type' => [
+                        'fieldName' => 'atribution_type',
+                        'type' => 'integer',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'atribution_type',
+                    ],
+                    'private_auction' => [
+                        'fieldName' => 'private_auction',
+                        'type' => 'boolean',
+                        'scale' => 0,
+                        'length' => null,
+                        'unique' => false,
+                        'nullable' => false,
+                        'precision' => 0,
+                        'columnName' => 'private_auction',
+                    ],
+                ],
+            ],
+            'fieldNames' => [
+                [
+                    'id' => 'id',
+                    'publisher' => 'publisher',
+                    'name' => 'name',
+                    'whitelist_seats' => 'whitelist_seats',
+                    'bidfloor' => 'bidfloor',
+                    'atribution_type' => 'atribution_type',
+                    'private_auction' => 'private_auction',
+                ],
+            ],
+            'columnNames' => [
+                [
+                    'id' => 'id',
+                    'publisher' => 'publisher',
+                    'name' => 'name',
+                    'whitelist_seats' => 'whitelist_seats',
+                    'bidfloor' => 'bidfloor',
+                    'atribution_type' => 'atribution_type',
+                    'private_auction' => 'private_auction',
+                ],
+            ],
+            'table' => [
+                [
+                    'name' => 'deals',
+                ],
+            ],
+            'idGenerator' => [
+                $o[1],
+            ],
+            'sequenceGeneratorDefinition' => [
+                [
+                    'sequenceName' => 'deals_id_seq',
+                    'allocationSize' => 1,
+                    'initialValue' => 1,
+                ],
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); }];
